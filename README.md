@@ -11,3 +11,6 @@ Source code for DoS(Denial of Service) Attack in Linux Environment.
 
 ## Usage
 Will be updated...
+### Windows
+### Linux
+### macOS
