@@ -55,7 +55,7 @@ int main(void){
 	iph->ttl = 255; // Time to Live
 	iph->protocol = IPPROTO_TCP; // 프로토콜
 	iph->check = 0;		// 체크섬
-	iph->saddr = inet_addr("127.0.0.1");	// 보내는 주소(Spoofing)
+	iph->saddr = inet_addr("127.0.0.1");	// 보내는 주소
 	iph->daddr = inet_addr("127.0.0.1"); // 받는 주소
 	
     // IP헤더의 체크섬을 구한다.
