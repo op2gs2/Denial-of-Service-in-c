@@ -1,4 +1,4 @@
-# DoS_Suite_App
+# Denial of Service in c
 
 ## What this code is?
 Source code for DoS(Denial of Service) Attack in Linux Environment.
