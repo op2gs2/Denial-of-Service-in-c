@@ -3,7 +3,7 @@
 ## What this code is?
 Source code for DoS(Denial of Service) Attack in Linux Environment.
 
-## This consist two parts:
+## This code has several features:
 - Ping of Death Attack <b>(Developing)</b>
 <br>: Sending a Big size packet to target and make it busy. Big size packet will be fragmented, Delivered to a target system. Target will take fragmented many packets, It makes overload to the target system. 
 - SYN Flooding Attack <b>(Developing)</b>
