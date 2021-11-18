@@ -1,3 +1,5 @@
+# Made by Jung-UngGyo (Undergraduate Student of Hallym University)
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
