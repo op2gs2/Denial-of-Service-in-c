@@ -108,8 +108,7 @@ int main(void){
 
     /* setsockopt()를 이용해서 커널에 헤더값을 변경하지 말 것을 알려준다. */
     int optval = 1;
-    if(setsockopt(socket_des, IPPROTO_IP, IP_HDRINCL, &optval, sizeof(optval)) < 0)
-    {
+    if(setsockopt(socket_des, IPPROTO_IP, IP_HDRINCL, &optval, sizeof(optval)) < 0){
         perror("Setsockopt() Error!");
     } 
 
@@ -124,8 +123,7 @@ int main(void){
         {
             perror("Sendto() Error!");
         }
-        else
-        {
+        else{
             printf ("Packet Send \n");
         }
         // sleep(1) // 최근 방어장비는 DoS 공격을 방어하는 기능이 있어, 시간차 공격을 통해 자원을 고갈 시킬 수 있다.
