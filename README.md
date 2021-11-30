@@ -12,4 +12,4 @@ Source code for DoS(Denial of Service) Attack in Linux Environment.
 ## Usage
 Will be updated...
 This code can run in a Unix system. <br>
-If you want to run this code in Windows System, You should use WSL[https://docs.microsoft.com/en-us/windows/wsl/about] or Cygwin[https://www.cygwin.com/] or Virtual Machine.
+If you want to run this code in Windows System, You should use (WSL)[https://docs.microsoft.com/en-us/windows/wsl/about] or (Cygwin)[https://www.cygwin.com/] or Virtual Machine.
