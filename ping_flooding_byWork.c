@@ -92,8 +92,8 @@
 	ip->frag_off = 0;   // 패킷의 단편화 여부 0- 있음
 	ip->ttl = 255;    // time to live 225. 패킷이 라우터를 넘어 목적지 까지 살아남을 수 있는 시간 ( 최대)
 	ip->protocol = IPPROTO_ICMP; // 상위 프로토콜 을 ICMP IP : 3계층 ICMP 4계층
-	ip->saddr = saddr; // 전송지 ip 주소 ( 우회 )
-	ip->daddr = daddr;  // 도착지 ip 주소
+	ip->saddr = saddr; // 도착지 ip 주소
+	ip->daddr = daddr;  // 목적지 ip 주소
     //소켓 주소 와 구조체 설정 
 
     icmp->type = ICMP_ECHO; // echo Message 응답 (ping 응답)
