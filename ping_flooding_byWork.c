@@ -5,8 +5,8 @@
 #include <netinet/ip.h>
 #include <netinet/ip_icmp.h>
 #include <unistd.h>
- 
- 
+#include <arpa/inet.h> 
+ unsigned short in_cksum(unsigned short *ptr, int nbytes);
  int main(int argc, char **argv)
 {
 	if (argc < 3) 
