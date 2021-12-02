@@ -10,9 +10,26 @@ Source code for DoS(Denial of Service) Attack in Linux Environment.
 <br>: This is an attack using the vulnerability of TCP 3-way handshaking. When the Client sends an SYN packet, the server will send the SYN and ACK Packet and wait for the Client's answer. At that time, the Attacker sends a lot of SYN packets. The server will overload due to a lot of waiting for the Client's answer.
 
 ## Usage
-Will be updated...
+### Requirements
 This code can run in a Unix system. <br>
 If you want to run this code in Windows System, You should use [WSL](https://docs.microsoft.com/en-us/windows/wsl/about) or [Cygwin](https://www.cygwin.com/) or Virtual Machine.
+
+### Way to Compile
+You can complie this code like this:
+Before compile code, make sure that ALL source code file is in same directory.
+'''bash
+$ gcc -o DoS DoS.c
+'''
+
+### Way to Execute
+After compile and made object file, You can run this code like this:
+This code require super-user previleages.
+'''bash
+$ sudo ./DoS [Options] [SourceIP] [DestinationIP]
+'''
+Here is list of options:
+- "-i" : Ping of Death Attack
+- "-s" : SYN_Flooding Attack
 
 ## Contribution
 We are welcome to your contribution! <br>
