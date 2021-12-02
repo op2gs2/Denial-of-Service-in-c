@@ -23,7 +23,7 @@ $ gcc -o DoS DoS.c
 
 ### Way to Execute
 After compile and made object file, You can run this code like this:
-This code require super-user previleages.
+This code require super-user privileges.
 ```bash
 $ sudo ./DoS [Options] [SourceIP] [DestinationIP]
 ```
