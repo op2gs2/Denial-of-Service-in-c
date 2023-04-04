@@ -34,4 +34,3 @@ Here is list of options:
 ## Contribution
 We are welcome to your contribution! <br>
 There is no restrictions for contribution. <br>
-But, Please send a e-mail after pull-request.
